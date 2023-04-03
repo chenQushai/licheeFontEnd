@@ -1,0 +1,144 @@
+* ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+* ::-webkit-scrollbar-thumb {
+  border-radius: inherit;
+  background-color: rgba(144, 147, 153, 0.5);
+}
+
+//跳转标签
+a {
+  text-decoration: none;
+  color: #1890FF;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+//表单盒子
+.form-box {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+//表格收缩内容
+.table-collapse-box-font-left {
+  padding-left: 10px;
+  .table-inner-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+  }
+  .font-content {
+    display: inline-block;
+    width: 70%;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+
+//分页框
+.pagination {
+  background: #ffffff;
+  overflow: auto;
+  padding: 5px 10px;
+  border: 1px solid #EBEEF5;
+  border-top: none;
+  border-bottom: none;
+}
+
+//标记显示
+.barge-content {
+  width: 100%;
+  text-align: right;
+  line-height: 15px;
+  .barge-item {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    .barge-rect {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+    .barge-des {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 400;
+      vertical-align: middle;
+    }
+  }
+}
+
+//自定义分栏标签
+.divider-tag {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  left: 10px;
+  top: -10px;
+  background-color: white;
+  color: #1890FF;
+}
+
+// 状态点
+.status-background-color-red {
+  background: #ff4143 !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.status-background-color-green {
+  background: #54c51d !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.status-background-color-orange {
+  background: #faad14 !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.status-background-color-gray {
+  background: #858585 !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.status-background-color-blue {
+  background: #007aff !important;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
